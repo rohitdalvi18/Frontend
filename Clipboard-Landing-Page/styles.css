@@ -1,0 +1,287 @@
+body{
+  max-width: 1440px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  background: url('images/bg-header-desktop.png') no-repeat;
+  background-size: 100%;
+  text-align: center;
+  font-size: 1.125rem;
+  margin: 0;
+  background-color: rgb(250, 250, 250);
+}
+
+p{
+  letter-spacing: 1.1px;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+}
+
+h2{
+    font-size: 2.1875rem;
+}
+
+h3{
+  text-align: left;
+  font-size: 1.4375rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/********************UPPER-CONTAINER*************************/
+.upper-container{
+  max-width: 1440px;
+  text-align: center;
+}
+
+.Clipboard-logo{
+  margin-top: 8.1875rem;
+}
+
+.header{
+  text-align: center;
+  font-size: 2.75rem;
+  letter-spacing: .1px;
+  margin: 50px 100px auto 100px;
+}
+
+.p1{
+  margin: 20px 350px 30px;
+}
+/*******************buttons***********************/
+.buttons{
+  margin-top: 3.75rem;
+}
+
+.ios {
+  -webkit-border-radius: 52;
+  -moz-border-radius: 52;
+  border-radius: 52px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 1px 6px 3px #0e614b;
+  -moz-box-shadow: 1px 6px 3px #0e614b;
+  box-shadow: 1px 6px 3px #0e614b;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #0db896;
+  padding: 16px 36px 16px 36px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.ios:hover {
+  background: #12c4b5;
+  text-decoration: none;
+}
+
+.mac {
+  -webkit-border-radius: 52;
+  -moz-border-radius: 52;
+  border-radius: 52px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 1px 6px 3px #3c59ad;
+  -moz-box-shadow: 1px 6px 3px #3c59ad;
+  box-shadow: 1px 6px 3px #3c59ad;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4a77ff;
+  padding: 16px 36px 16px 36px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.mac:hover {
+  background: #5c9ded;
+  text-decoration: none;
+}
+/*******************MIDDLE-CONTAINER***********************/
+.middle-container{
+  margin: 150px 0 auto 0;
+}
+
+.snippets-h2{
+  text-align: center;
+  margin: 0 18.75rem;
+}
+
+.p2{
+  margin-left: 18rem;
+  margin-right: 18rem;
+  padding: 0 5px;
+}
+
+.computer{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pc{
+  float: left;
+  margin-top: 20px;
+  margin-left: -100px;
+  padding: 60px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+  padding-top: 125px;
+}
+
+.pc-text{
+  text-align: left;
+  margin-right: 128px;
+  font-size: 1rem;
+  margin-top: -7px;
+}
+
+.clipboard{
+  margin-top: 90px;
+}
+
+.clipboard-h2{
+  margin-bottom: 15px;
+}
+
+.clipboard-text{
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.devices{
+  margin-top: 80px;
+}
+
+.workflow-h2{
+  margin-bottom: 0;
+}
+
+.workflow-text{
+  padding-left: 188px;
+  padding-right: 188px;
+  margin-left: 280px;
+  margin-right: 281px;
+  font-size: 1.0625rem;
+}
+
+.tools{
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.blacklist{
+  padding: 0 40px;
+  text-align: center;
+  margin-right: 116px;
+}
+
+.formatting{
+  text-align: center;
+  margin-right: 150px;
+}
+
+.preview{
+  margin-right: 155px;
+  text-align: center;
+}
+
+.tools-h3{
+  text-align: center;
+  margin-top: 35px;
+}
+
+.tools-text{
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: .1px;
+  line-height: 1.6;
+}
+/*****************BRANDS******************/
+.logo{
+  margin-top: 145px;
+  margin-bottom: 129px;
+}
+
+.logo img{
+  padding: 40px;
+}
+
+.microsoft{
+  margin-bottom: 10px;
+}
+
+.vector{
+  margin-bottom: 15px;
+}
+/*************ClIPBOARD DOWNLOAD*************/
+.DOWNLOAD{
+  margin-bottom: 150px;
+}
+
+.download-h2{
+  margin-bottom: 0;
+}
+
+.download-text{
+  margin: 18px 310px;
+}
+/********************BOTTOM-CONTAINER*********************/
+.bottom-container{
+  background-color:#f4f4f4;
+}
+
+.page-footer{
+  padding-left: 180px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.clip-logo{
+  width: 55px;
+  height: 55px;
+  padding-top: 20px;
+}
+
+table{
+  padding-left: 50px;
+  border-spacing: 70px 15px;
+}
+
+table a{
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+
+.menu-link:hover{
+  color: hsl(171, 66%, 44%);
+}
+
+.faq{
+  padding-right: 50px;
+}
+
+.press-kit{
+  padding-right: 43px;
+}
+
+.social-media{
+  margin-left: 215px;
+  margin-top: 30px;
+}
+
+.twitter{
+  padding: 0 20px;
+}
+
+.copyrights {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  color: #222831;
+  font-size: .95rem;
+  font-family: 'Muli', sans-serif;
+}

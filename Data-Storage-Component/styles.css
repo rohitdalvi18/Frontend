@@ -1,0 +1,304 @@
+/*  ==================== Global =====================  */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Raleway', sans-serif;
+   background-color: var(--bg-color);
+   overflow-y: hidden;
+}
+
+:root {
+   --bg-color: #0C132C;
+   --card-color: #1E2C69;
+}
+
+.desktop-bg {
+   position: fixed;
+   top: 47.5vh;
+   max-width: 100vw;
+}
+
+.mobile-bg {
+   display: none;
+}
+
+/*  ==================== Fylo Brand Card =====================  */
+
+.info-ctn {
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   top: 43vh;
+   left: 17.5%;
+   right: 17.5%;
+}
+
+.brand-card {
+   display: inline-block;
+   width: 25vw;
+   height: 30vh;
+   background-color: var(--card-color);
+   border-radius: 16px;
+   border-top-right-radius: 100px;
+   padding: 30px;
+   padding-top: 40px;
+}
+
+.logo {
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.icon-ctn {
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+   min-width: 140px;
+}
+
+.icon-wrapper {
+   height: 40px;
+   width: 40px;
+   background-color: var(--bg-color);
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.doc-wrapper {
+   padding: 7.5px 10.5px;
+}
+
+.folder-wrapper {
+   padding: 10px 7.5px;
+}
+
+.upload-wrapper {
+   padding: 10.5px 7.5px;
+}
+
+/*  ==================== Storage Progress Card =====================  */
+
+.progress-card {
+   color: white;
+   display: inline-block;
+   width: 38vw;
+   height: 22.5vh;
+   background-color: var(--card-color);
+   border-radius: 16px;
+   padding-top: 36px;
+}
+
+.progress-bar {
+   height: 18px;
+   background-color: #161E49;
+   width: 87.5%;
+   margin: auto;
+   border-radius: 10px;
+   padding: 3px;
+}
+
+.progress-card p {
+   margin-bottom: 16px;
+   margin-left: 6.25%;
+   font-size: .85rem;
+}
+
+.storage-count {
+   display: flex;
+   justify-content: space-between;
+   width: 87.5%;
+   font-size: .7rem;
+   margin-left: 6.25%;
+   margin-top: 8px;
+}
+
+.progress-line {
+   height: 12px;
+   background-image: -webkit-linear-gradient(left, #FF9E95, #FA4C91);
+   width: 75%;
+   border-radius: 10px;
+   padding: 2px;
+}
+
+.progress-point {
+   height: 8px;
+   width: 8px;
+   border-radius: 50%;
+   background-color: white;
+   margin-left: auto;
+}
+
+/*  ==================== Storage Count =====================  */
+
+.bubble-box {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   position: absolute;
+   top: 0;
+   right: 2.5vw;
+   width: 20%;
+   height: 4em;
+   background-color: #FFFFFE;
+   border-radius: 10px;
+   padding: 15px 3.5%;
+}
+
+.bubble-triangle {
+   position: absolute;
+   top: 40px;
+   right: 2.5vw;
+   width: 0;
+   height: 0;
+   border-right: 25px solid #FFFFFE;
+   border-top: 20px solid transparent;
+   border-bottom: 20px solid transparent;
+}
+
+.bubble-box p {
+   font-size: .7rem;
+   color: #B9B9BB;
+   font-weight: 700;
+}
+
+.bubble-box span {
+   font-size: 1.8rem;
+   color: #091025;
+   font-weight: 700;
+}
+
+/*  ==================== Footer =====================  */
+
+.attribution {
+   position: absolute;
+   bottom: -55px;
+   left: 35vw;
+   right: 35vw;
+   font-size: 12px;
+   text-align: center;
+   color: #B9B9BB;
+   opacity: 75%;
+}
+
+.attribution a {
+   color: #B9B9BB;
+}
+
+/*  ==================== Media Screen =====================  */
+
+@media screen and (max-width: 768px) {
+
+   body {
+      overflow-y: visible;
+   }
+
+   .mobile-bg {
+      display: block;
+      position: absolute;
+      opacity: 100%;
+      z-index: -1;
+      width: 100%;
+      max-height: 150vh;
+      transition: .3s ease;
+   }
+
+   .info-ctn {
+      position: absolute;
+      top: 30vh;
+      left: 0;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+   }
+
+   .brand-card {
+      width: 90vw;
+      height: 45vh;
+      padding: 65px 65px;
+      border-top-right-radius: 125px;
+      margin-bottom: 20px;
+   }
+
+   .desktop-bg {
+      display: none;
+   }
+
+   .logo {
+      transform: scale(1.2);
+      margin-left: 7.5px;
+   }
+
+   .icon-ctn {
+      max-width: 250px;
+      margin-top: 30px;
+   }
+
+   .icon-wrapper {
+      transform: scale(1.4);
+   }
+
+   .progress-card {
+      width: 90vw;
+      height: 30vh;
+      border-radius: 16px;
+      padding-top: 30px;
+   }
+
+   .progress-bar {
+      height: 22px;
+   }
+
+   .progress-card p {
+      max-width: 85%;
+      font-size: 1rem;
+      text-align: center;
+   }
+
+   .storage-count {
+      font-size: .85rem;
+   }
+
+   .progress-line {
+      height: 16px;
+   }
+
+   .progress-point {
+      height: 12px;
+   }
+
+   .bubble-box {
+      top: 70vh;
+      left: 27.5vw;
+      right: 27.5vw;
+      width: 45%;
+      height: 6em;
+      padding: 15px 6%;
+      z-index: 1;
+   }
+
+   .bubble-triangle {
+      display: none;
+   }
+
+   .bubble-box p {
+      font-size: .9rem;
+   }
+
+   .bubble-box span {
+      font-size: 3rem;
+   }
+
+   .attribution {
+      position: absolute;
+      top: 146vh;
+      left: 10vw;
+      right: 10vw;
+   }
+}

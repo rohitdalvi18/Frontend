@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <title>Social Media Dashboard</title>
+
+</head>
+<body class="dark">
+
+  <div class="bg-box"></div>
+  <div class="container">
+  <!-- Header -->
+    <div class="header">                <!-- d-flex justify-content-between -->
+      <div class="headlines">
+        <div class="headline-1">Social Media Dashboard</div>
+        <div class="headline-2">Total Followers: 23,004</div>
+      </div>
+      <hr>
+      <div class="toggle d-flex justify-content-between">
+        <div>Dark Mode</div>
+        <div class="toggler">
+          <div class="toggler-circle"></div>
+        </div>
+      </div>
+    </div>
+    <div class="fans d-flex justify-content-between flex-wrap">
+      <div class="card fb-fans">
+        <div class="card-top">
+          <img src="images/icon-facebook.svg" alt="fb-icon">
+          <span>@nathanf</span>
+        </div>
+        <div class="follower-count">1987</div>
+        <div class="follower-text">Followers</div>
+        <div class="card-bottom">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <span class="count-cards count-up">12 Today</span>
+        </div>
+      </div>
+      <div class="card twt-fans">
+        <div class="card-top">
+          <img src="images/icon-twitter.svg" alt="twt-icon">
+          <span>@nathanf</span>
+        </div>
+        <div class="follower-count">1044</div>
+        <div class="follower-text">Followers</div>
+        <div class="card-bottom">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <span class="count-cards count-up">99 Today</span>
+        </div>
+      </div>
+      <div class="card insta-fans">
+        <div class="card-top" style="margin-top: 3px;">
+          <img src="images/icon-instagram.svg" alt="insta-icon">
+          <span>@realnathanf</span>
+        </div>
+        <div class="follower-count">11k</div>
+        <div class="follower-text">Followers</div>
+        <div class="card-bottom">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <span class="count-cards count-up">1099 Today</span>
+        </div>
+      </div>
+      <div class="card yt-fans">
+        <div class="card-top">
+          <img src="images/icon-youtube.svg" alt="yt-icon">
+          <span>Nathan F.</span>
+        </div>
+        <div class="follower-count">8239</div>
+        <div class="follower-text">Subscribers</div>
+        <div class="card-bottom">
+          <img src="images/icon-down.svg" alt="icon-up">
+          <span class="count-cards count-down">144 Today</span>
+        </div>
+      </div>
+    </div>
+    <!-- Overview-Section -->
+    <div class="overview-heading">Overview - Today</div>
+    <div class="overview d-flex justify-content-between align-content-between flex-wrap">
+      <!-- card-1 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Page Views</div>
+          <img src="images/icon-facebook.svg" alt="fb-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">87</div>
+          <div>
+            <img src="images/icon-up.svg" alt="icon-up">
+            <span class="count-up">3%</span>
+          </div>
+        </div>
+      </div>
+      <!-- card-2 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Likes</div>
+          <img src="images/icon-facebook.svg" alt="fb-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">52</div>
+          <div>
+            <img src="images/icon-down.svg" alt="icon-up">
+            <span class="count-down">2%</span>
+          </div>
+        </div>
+      </div>
+      <!-- card-3 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Likes</div>
+          <img src="images/icon-instagram.svg" alt="insta-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">5462</div>
+          <div>
+            <img src="images/icon-up.svg" alt="icon-up">
+            <span class="count-up">2257%</span>
+          </div>
+        </div>
+      </div>
+      <!-- card-4 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Profile Views</div>
+          <img src="images/icon-instagram.svg" alt="insta-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">52k</div>
+          <div>
+            <img src="images/icon-up.svg" alt="icon-up">
+            <span class="count-up">1375%</span>
+          </div>
+        </div>
+      </div>
+      <!-- card-5 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Retweets</div>
+          <img src="images/icon-twitter.svg" alt="twt-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">117</div>
+          <div>
+            <img src="images/icon-up.svg" alt="icon-up">
+            <span class="count-up">303%</span>
+          </div>
+        </div>
+      </div>
+      <!-- card-6 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Likes</div>
+          <img src="images/icon-twitter.svg" alt="twt-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">507</div>
+          <div>
+            <img src="images/icon-up.svg" alt="icon-up">
+            <span class="count-up">553%</span>
+          </div>
+        </div>
+      </div>
+      <!-- card-7 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Likes</div>
+          <img src="images/icon-youtube.svg" alt="yt-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">107</div>
+          <div>
+            <img src="images/icon-down.svg" alt="icon-down">
+            <span class="count-down">19%</span>
+          </div>
+        </div>
+      </div>
+      <!-- card-8 -->
+      <div class="small-card">
+        <div class="small-card-top d-flex justify-content-between">
+          <div class="heading">Total Views</div>
+          <img src="images/icon-youtube.svg" alt="yt-icon">
+        </div>
+        <div class="small-card-bottom d-flex justify-content-between">
+          <div class="count">1407</div>
+          <div>
+            <img src="images/icon-down.svg" alt="icon-down">
+            <span class="count-down">12%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Made with ❤️ by <span>Rohit Dalvi</span>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
+</body>
+</html>
